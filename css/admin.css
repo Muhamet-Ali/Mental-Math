@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #e9ecef;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 15px 0;
+    background-color: #f2f4f3;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.questions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ced4da;
+    padding: 15px;
+    width: 100%;
+}
+
+.students {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ced4da;
+    padding: 15px;
+    width: 100%;
+}
+
+.table-wrapper {
+    max-height: 400px;
+    width: 800px;
+    /* istediğin yükseklik */
+    overflow-y: auto;
+    /* dikey scrollbar çıkması için */
+    /* opsiyonel */
+    border: 1px solid #6c757d;
+}
+
+.scoreStudents {
+    max-height: 400px;
+    width: 800px;
+    /* istediğin yükseklik */
+    overflow-y: auto;
+    /* dikey scrollbar çıkması için */
+    /* opsiyonel */
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    border: 1px solid #6c757d;
+}
+
+.selectLevelDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    width: 500px;
+}
+
+.selectLevelDiv button {
+    margin-top: 10px;
+}

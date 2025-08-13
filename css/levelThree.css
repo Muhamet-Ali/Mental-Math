@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url('../image/back.jpg');
+    background-repeat: no-repeat;
+    /* tekrar etmesin */
+    background-position: center;
+    /* ortada kalsın */
+    background-size: cover;
+    /* kutuya tam otursun */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('../image/back.jpg') center/cover no-repeat;
+
+
+}
+
+.container {
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.leveThree {
+    width: 350px;
+    background-image: url('../image/arka4.jpg');
+    background-repeat: no-repeat;
+    /* tekrar etmesin */
+    background-position: center;
+    /* ortada kalsın */
+    background-size: cover;
+    /* kutuya tam otursun */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('../image/arka4.jpg') center/cover no-repeat;
+
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#time {
+    background-color: #a3d6fc;
+
+}

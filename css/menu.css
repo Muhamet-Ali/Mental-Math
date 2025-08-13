@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #0f4c75, #3282b8, #bbe1fa);
+    background-attachment: fixed;
+    /* Sayfa kayınca sabit kalır */
+}
+
+
+.logo {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    margin: 0 0;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #2c82f5, #00c6ff);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.user {
+    background-color: #9cd2ff;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px;
+    text-align: center;
+    margin: 3px;
+    display: none;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    font-size: 18px;
+
+}
+
+.ust-nav {
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(135deg, #eaf6ff, #bcdefa);
+    margin: 0 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 6px 12px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #2c82f5;
+}
+
+.ust-menu {
+    position: relative;
+}
+
+
+.main,
+.contact,
+.rules,
+.levels {
+    background-color: #9cd2ff;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px;
+    text-align: center;
+    margin: 3px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    /* Nav'ın hemen altı */
+    z-index: 1000;
+}
+
+/* Her bir div için farklı konum */
+.main {
+    left: 1000px;
+}
+
+.rules {
+    left: 700px;
+}
+
+.contact {
+    left: 360px;
+
+}
+
+.levels {
+    left: 40px;
+}
+
+
+/* --------------------------container ----------------------------*/
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.genel {
+    background-image: url('../image/genel.jpg');
+    background-repeat: no-repeat;
+    /* tekrar etmesin */
+    background-position: center;
+    /* ortada kalsın */
+    background-size: cover;
+    /* kutuya tam otursun */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('../image/genel.jpg') center/cover no-repeat;
+
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 600px;
+    margin: 15px 20px;
+}
+
+.level {
+    background-color: rgb(172, 185, 231);
+    margin: 15px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 600px;
+    /* biraz genişlettim */
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+.one {
+    background-image: url('../image/back.jpg');
+    background-repeat: no-repeat;
+    /* tekrar etmesin */
+    background-position: center;
+    /* ortada kalsın */
+    background-size: cover;
+    /* kutuya tam otursun */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('../image/back.jpg') center/cover no-repeat;
+}
+
+.two {
+    background-image: url('../image/bir.jpg');
+    background-repeat: no-repeat;
+    /* tekrar etmesin */
+    background-position: center;
+    /* ortada kalsın */
+    background-size: cover;
+    /* kutuya tam otursun */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('../image/bir.jpg') center/cover no-repeat;
+}
+
+.three {
+    background-image: url('../image/iki.jpg');
+    background-repeat: no-repeat;
+    /* tekrar etmesin */
+    background-position: center;
+    /* ortada kalsın */
+    background-size: cover;
+    /* kutuya tam otursun */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('../image/iki.jpg') center/cover no-repeat;
+}
+
+.four {
+    background-image: url('../image/dort.jpg');
+    background-repeat: no-repeat;
+    /* tekrar etmesin */
+    background-position: center;
+    /* ortada kalsın */
+    background-size: cover;
+    /* kutuya tam otursun */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('../image/dort.jpg') center/cover no-repeat;
+}
+
+
+.oneTwo {
+    display: flex;
+}
+
+.threeFour {
+
+    display: flex;
+}
+
+
+.ozel,
+.olaylar {
+    background-color: #dff0ff;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 600px;
+    margin: 15px 20px;
+}
+
+.ozel {
+    background-image: url('../image/son1.webp');
+    background-repeat: no-repeat;
+    /* tekrar etmesin */
+    background-position: center;
+    /* ortada kalsın */
+    background-size: cover;
+    /* kutuya tam otursun */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('../image/son1.webp') center/cover no-repeat;
+}
+
+.olaylar {
+    background-image: url('../image/son2.webp');
+    background-repeat: no-repeat;
+    /* tekrar etmesin */
+    background-position: center;
+    /* ortada kalsın */
+    background-size: cover;
+    /* kutuya tam otursun */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('../image/son2.webp') center/cover no-repeat;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* ------------------------footer --------------------------------------- */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 0 0 0;
+    /* üstte 50px, altta 0px */
+    background-color: #141178;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icons i {
+    font-size: 30px;
+    color: rgb(194, 193, 193);
+}
+
+.words {
+    display: flex;
+    gap: 25px;
+}
+
+.words p {
+    font-weight: bold;
+    color: rgb(194, 193, 193);
+
+}
+
+/* ------------for mobile-------------- */
+
+/* Tüm sayfada taşma olmasın ve mobil zoom ayarı */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Küçük ekranlarda yazı boyutlarını küçült */
+@media (max-width: 768px) {
+
+    h1,
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p,
+    li {
+        font-size: 0.9rem;
+    }
+
+    /* Üst menü linkleri alt alta gelsin */
+    .ust-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+
+    /* Butonlar tam genişlik olsun */
+    .btn,
+    .mainBtn,
+    .userBtn {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /* İki sütunlu alanlar tek sütun olsun */
+    .oneTwo,
+    .threeFour {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Resimler ekran boyutuna göre küçülsün */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Footer elemanları alt alta gelsin */
+    footer {
+        text-align: center;
+    }
+
+    footer .icons,
+    footer .words {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
